@@ -14,7 +14,7 @@ import base64
 from io import BytesIO
 
 from PIL import Image
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from openai import OpenAI
 
 # -0) 라이브러리 추가하기 : streamlit
@@ -109,3 +109,4 @@ if uploaded_file:
         st.code(response)
         
         
+
